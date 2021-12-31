@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <title>ETCH A SKETCH</title>
+</head>
+<body>
+    <div class="header"><h1>ETCH A SKETCH</h1></div>
+    <div class="content">
+        <div id="menu">
+            <button id="clear-button">Clear</button>
+            <div id="color-container">
+                <p id="color-text"> Pick Color</p>
+                <input type="color"  id="color-pick">
+            </div>
+            <div id="squars-container">
+                <p id="corrent-amount">16 X 16</p>
+                <input type="range" id="square-range" value="16" min="1" max="100" >
+            </div>
+            <button id="eraser">Eraser</button>
+            <button id="random-color">Random Color</button>
+        </div >
+        <div id="sketch"></div>
+        <div id="invisible-menu"></div>
+    </div>
+    <div class="footer">
+        <img src="img/github.png" alt="github link">
+        <a href="https://github.com/IlyaEru">IlyaEru</a>
+    </div>
+</body>
+<div></div>
+</html>
